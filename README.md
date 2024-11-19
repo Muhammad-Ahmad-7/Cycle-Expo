@@ -1,4 +1,9 @@
-# Welcome to your Expo app 👋
+# Welcome to Cycle-Expo 👋
+
+
+## Summary
+
+This is an bicycle based Ecommerce app. Complete UI created using React Native and dummy data is used in this app.
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
