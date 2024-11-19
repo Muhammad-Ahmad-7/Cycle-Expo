@@ -1,0 +1,2773 @@
+{
+    "cycles": [
+        {
+            "id": "1-1",
+            "type": "MTB",
+            "image": "img-mtb",
+            "items": [
+                {
+                    "id": "mtb-1",
+                    "name": "MTB Trail Blazer",
+                    "price": 400,
+                    "description": "A rugged mountain bike built for challenging trails.",
+                    "features": [
+                        "29-inch wheels",
+                        "Hydraulic disc brakes",
+                        "Aluminum frame"
+                    ],
+                    "image": "mtb-1"
+                },
+                {
+                    "id": "mtb-2",
+                    "name": "MTB Rock Rider",
+                    "price": 450,
+                    "description": "Designed for off-road enthusiasts seeking performance.",
+                    "features": [
+                        "Suspension fork",
+                        "21-speed gear system",
+                        "Durable tires"
+                    ],
+                    "image": "mtb-2"
+                },
+                {
+                    "id": "mtb-3",
+                    "name": "MTB Adventurer",
+                    "price": 500,
+                    "description": "Perfect for long mountain rides and adventurous terrains.",
+                    "features": [
+                        "Full suspension",
+                        "Lightweight frame",
+                        "Hydraulic brakes"
+                    ],
+                    "image": "mtb-3"
+                },
+                {
+                    "id": "mtb-4",
+                    "name": "MTB Pro Climber",
+                    "price": 550,
+                    "description": "Engineered for steep climbs and tough descents.",
+                    "features": [
+                        "Advanced shock absorption",
+                        "Wide tires",
+                        "Carbon fiber frame"
+                    ],
+                    "image": "mtb-4"
+                },
+                {
+                    "id": "mtb-5",
+                    "name": "MTB Explorer",
+                    "price": 600,
+                    "description": "Versatile MTB for all types of outdoor trails.",
+                    "features": [
+                        "Adjustable suspension",
+                        "High-grip tires",
+                        "Premium alloy frame"
+                    ],
+                    "image": "mtb-5"
+                },
+                {
+                    "id": "mtb-6",
+                    "name": "MTB Terrain King",
+                    "price": 650,
+                    "description": "Top-of-the-line MTB for professional riders.",
+                    "features": [
+                        "Carbon wheels",
+                        "27-speed Shimano gears",
+                        "Hydraulic braking system"
+                    ],
+                    "image": "mtb-6"
+                }
+            ]
+        },
+        {
+            "id": "1-2",
+            "type": "ROAD BIKE",
+            "image": "img-road",
+            "items": [
+                {
+                    "id": "road-1",
+                    "name": "Road Speedster",
+                    "price": 700,
+                    "description": "Lightweight road bike designed for speed enthusiasts.",
+                    "features": [
+                        "Carbon frame",
+                        "Aero handlebars",
+                        "11-speed Shimano gears"
+                    ],
+                    "image": "r-1"
+                },
+                {
+                    "id": "road-2",
+                    "name": "Road Racer X",
+                    "price": 750,
+                    "description": "Engineered for competitive road racing.",
+                    "features": [
+                        "Drop handlebars",
+                        "Slim tires",
+                        "Ultra-lightweight design"
+                    ],
+                    "image": "r-2"
+                },
+                {
+                    "id": "road-3",
+                    "name": "Road Endurance",
+                    "price": 800,
+                    "description": "Perfect for long-distance road cycling.",
+                    "features": [
+                        "Comfortable geometry",
+                        "Shock-absorbing frame",
+                        "Disc brakes"
+                    ],
+                    "image": "r-3"
+                },
+                {
+                    "id": "road-4",
+                    "name": "Road Aerodynamic",
+                    "price": 850,
+                    "description": "Designed to cut through the wind effortlessly.",
+                    "features": [
+                        "Integrated frame",
+                        "Carbon wheels",
+                        "Precision shifting"
+                    ],
+                    "image": "r-4"
+                },
+                {
+                    "id": "road-5",
+                    "name": "Road Turbo",
+                    "price": 900,
+                    "description": "Blazing fast road bike with top-notch components.",
+                    "features": [
+                        "21-speed drivetrain",
+                        "Race-tuned geometry",
+                        "High-performance tires"
+                    ],
+                    "image": "r-5"
+                },
+                {
+                    "id": "road-6",
+                    "name": "Road Voyager",
+                    "price": 950,
+                    "description": "A robust road bike for all types of road adventures.",
+                    "features": [
+                        "Aluminum frame",
+                        "Hydraulic disc brakes",
+                        "Comfortable saddle"
+                    ],
+                    "image": "r-6"
+                }
+            ]
+        },
+        {
+            "id": "1-3",
+            "type": "BMX",
+            "image": "img-bmx",
+            "items": [
+                {
+                    "id": "bmx-1",
+                    "name": "BMX Freestyler",
+                    "price": 300,
+                    "description": "Perfect for stunts and freestyle tricks.",
+                    "features": [
+                        "20-inch wheels",
+                        "Reinforced frame",
+                        "360-degree gyro"
+                    ],
+                    "image": "bx-1"
+                },
+                {
+                    "id": "bmx-2",
+                    "name": "BMX Dirt Jumper",
+                    "price": 320,
+                    "description": "Ideal for dirt jumping and trail riding.",
+                    "features": [
+                        "High-grip tires",
+                        "Sturdy frame",
+                        "Shock-resistant build"
+                    ],
+                    "image": "bx-2"
+                },
+                {
+                    "id": "bmx-3",
+                    "name": "BMX Stunt Master",
+                    "price": 350,
+                    "description": "Take your stunts to the next level with this BMX.",
+                    "features": [
+                        "Lightweight build",
+                        "Peg supports",
+                        "Enhanced grip"
+                    ],
+                    "image": "bx-3"
+                },
+                {
+                    "id": "bmx-4",
+                    "name": "BMX Track Pro",
+                    "price": 370,
+                    "description": "Built for racing on BMX tracks.",
+                    "features": [
+                        "Slim tires",
+                        "Aerodynamic design",
+                        "Adjustable seat"
+                    ],
+                    "image": "bx-4"
+                },
+                {
+                    "id": "bmx-5",
+                    "name": "BMX Urban Rider",
+                    "price": 400,
+                    "description": "Great for urban environments and skate parks.",
+                    "features": [
+                        "Compact frame",
+                        "Durable components",
+                        "Responsive brakes"
+                    ],
+                    "image": "bx-5"
+                },
+                {
+                    "id": "bmx-6",
+                    "name": "BMX Trail Blazer",
+                    "price": 420,
+                    "description": "Designed for adventure enthusiasts.",
+                    "features": [
+                        "Advanced shock system",
+                        "Reinforced wheels",
+                        "Precision handling"
+                    ],
+                    "image": "bx-6"
+                }
+            ]
+        },
+        {
+            "id": "1-4",
+            "type": "LADY BAR",
+            "image": "img-lady",
+            "items": [
+                {
+                    "id": "lady-1",
+                    "name": "Lady Cruiser Deluxe",
+                    "price": 450,
+                    "description": "Elegant and comfortable women's bike for city riding.",
+                    "features": [
+                        "Step-through frame",
+                        "Comfortable saddle",
+                        "Front basket"
+                    ],
+                    "image": "l-1"
+                },
+                {
+                    "id": "lady-2",
+                    "name": "Lady Urban Glide",
+                    "price": 480,
+                    "description": "Stylish city bike with modern features.",
+                    "features": [
+                        "7-speed gears",
+                        "LED lights",
+                        "Ergonomic grips"
+                    ],
+                    "image": "l-2"
+                },
+                {
+                    "id": "lady-3",
+                    "name": "Lady Comfort Plus",
+                    "price": 520,
+                    "description": "Ultimate comfort for daily commuting.",
+                    "features": [
+                        "Upright position",
+                        "Wide tires",
+                        "Quick-release seat"
+                    ],
+                    "image": "l-3"
+                },
+                {
+                    "id": "lady-4",
+                    "name": "Lady City Explorer",
+                    "price": 550,
+                    "description": "Perfect for city adventures and weekend rides.",
+                    "features": [
+                        "Lightweight frame",
+                        "Fenders included",
+                        "Rack mounts"
+                    ],
+                    "image": "l-4"
+                },
+                {
+                    "id": "lady-5",
+                    "name": "Lady Vintage",
+                    "price": 580,
+                    "description": "Classic design with modern components.",
+                    "features": [
+                        "Retro styling",
+                        "Internal gear hub",
+                        "Brooks saddle"
+                    ],
+                    "image": "l-5"
+                },
+                {
+                    "id": "lady-6",
+                    "name": "Lady Sport Elite",
+                    "price": 600,
+                    "description": "Performance-oriented women's specific design.",
+                    "features": [
+                        "Carbon fork",
+                        "Disc brakes",
+                        "Ergonomic touchpoints"
+                    ],
+                    "image": "l-6"
+                }
+            ]
+        },
+        {
+            "id": "1-5",
+            "type": "ELECTRIC BIKE",
+            "image": "img-electric",
+            "items": [
+                {
+                    "id": "ebike-1",
+                    "name": "E-Commuter Pro",
+                    "price": 1500,
+                    "description": "Premium electric bike for daily commuting.",
+                    "features": [
+                        "500W motor",
+                        "Range 50 miles",
+                        "Integrated lights"
+                    ],
+                    "image": "e-1"
+                },
+                {
+                    "id": "ebike-2",
+                    "name": "E-Mountain Explorer",
+                    "price": 1800,
+                    "description": "Electric mountain bike for trail adventures.",
+                    "features": [
+                        "750W motor",
+                        "Full suspension",
+                        "Fat tires"
+                    ],
+                    "image": "e-2"
+                },
+                {
+                    "id": "ebike-3",
+                    "name": "E-City Cruiser",
+                    "price": 1400,
+                    "description": "Comfortable electric bike for urban riding.",
+                    "features": [
+                        "350W motor",
+                        "Step-through frame",
+                        "Cargo rack"
+                    ],
+                    "image": "e-3"
+                },
+                {
+                    "id": "ebike-4",
+                    "name": "E-Fold & Go",
+                    "price": 1600,
+                    "description": "Foldable electric bike for easy storage.",
+                    "features": [
+                        "250W motor",
+                        "Quick folding",
+                        "Compact design"
+                    ],
+                    "image": "e-4"
+                },
+                {
+                    "id": "ebike-5",
+                    "name": "E-Speed Demon",
+                    "price": 2000,
+                    "description": "High-performance electric road bike.",
+                    "features": [
+                        "750W motor",
+                        "Carbon frame",
+                        "Range 60 miles"
+                    ],
+                    "image": "e-5"
+                },
+                {
+                    "id": "ebike-6",
+                    "name": "E-Cargo Master",
+                    "price": 2200,
+                    "description": "Electric cargo bike for heavy loads.",
+                    "features": [
+                        "1000W motor",
+                        "Extended wheelbase",
+                        "Cargo capacity 400lbs"
+                    ],
+                    "image": "e-6"
+                }
+            ]
+        },
+        {
+            "id": "1-6",
+            "type": "FOLDING BIKE",
+            "image": "img-fold",
+            "items": [
+                {
+                    "id": "fold-1",
+                    "name": "City Folder",
+                    "price": 400,
+                    "description": "Compact folding bike for urban commuters.",
+                    "features": [
+                        "Quick fold mechanism",
+                        "20-inch wheels",
+                        "6-speed gears"
+                    ],
+                    "image": "f-1"
+                },
+                {
+                    "id": "fold-2",
+                    "name": "Mini Commuter",
+                    "price": 450,
+                    "description": "Ultra-compact folder for mixed-mode commuting.",
+                    "features": [
+                        "16-inch wheels",
+                        "Aluminum frame",
+                        "Single speed"
+                    ],
+                    "image": "f-2"
+                },
+                {
+                    "id": "fold-3",
+                    "name": "Travel Pro",
+                    "price": 500,
+                    "description": "Premium folding bike for travelers.",
+                    "features": [
+                        "Multi-speed hub",
+                        "Carrying case",
+                        "Titanium frame"
+                    ],
+                    "image": "f-3"
+                },
+                {
+                    "id": "fold-4",
+                    "name": "Compact Plus",
+                    "price": 550,
+                    "description": "Feature-rich folding bike with comfort focus.",
+                    "features": [
+                        "Suspension fork",
+                        "Wide tires",
+                        "Rack included"
+                    ],
+                    "image": "f-4"
+                },
+                {
+                    "id": "fold-5",
+                    "name": "Metro Folder",
+                    "price": 600,
+                    "description": "Urban-styled folding bike with modern features.",
+                    "features": [
+                        "Belt drive",
+                        "Internal hub",
+                        "Fenders"
+                    ],
+                    "image": "f-5"
+                },
+                {
+                    "id": "fold-6",
+                    "name": "Adventure Folder",
+                    "price": 650,
+                    "description": "Rugged folding bike for outdoor adventures.",
+                    "features": [
+                        "Off-road tires",
+                        "Wide gear range",
+                        "Sturdy frame"
+                    ],
+                    "image": "f-6"
+                }
+            ]
+        },
+        {
+            "id": "1-7",
+            "type": "HYBRID BIKE",
+            "image": "img-hybrid",
+            "items": [
+                {
+                    "id": "hyb-1",
+                    "name": "City Glider",
+                    "price": 550,
+                    "description": "Versatile hybrid for city and trail riding.",
+                    "features": [
+                        "Flat handlebar",
+                        "700c wheels",
+                        "Front suspension"
+                    ],
+                    "image": "h-1"
+                },
+                {
+                    "id": "hyb-2",
+                    "name": "Cross Commuter",
+                    "price": 600,
+                    "description": "Perfect blend of speed and comfort.",
+                    "features": [
+                        "Disc brakes",
+                        "Carbon fork",
+                        "Wide range gearing"
+                    ],
+                    "image": "h-2"
+                },
+                {
+                    "id": "hyb-3",
+                    "name": "Fitness Pro",
+                    "price": 650,
+                    "description": "Sport hybrid for fitness enthusiasts.",
+                    "features": [
+                        "Lightweight frame",
+                        "Racing saddle",
+                        "Performance tires"
+                    ],
+                    "image": "h-3"
+                },
+                {
+                    "id": "hyb-4",
+                    "name": "Urban Explorer",
+                    "price": 700,
+                    "description": "All-purpose hybrid for urban adventures.",
+                    "features": [
+                        "Rack mounts",
+                        "Fenders",
+                        "Upright position"
+                    ],
+                    "image": "h-4"
+                },
+                {
+                    "id": "hyb-5",
+                    "name": "Pathfinder",
+                    "price": 750,
+                    "description": "Hybrid bike for long-distance rides.",
+                    "features": [
+                        "Endurance geometry",
+                        "Shock absorption",
+                        "Puncture-resistant tires"
+                    ],
+                    "image": "h-5"
+                },
+                {
+                    "id": "hyb-6",
+                    "name": "Trail Runner",
+                    "price": 800,
+                    "description": "Durable hybrid for varied terrains.",
+                    "features": [
+                        "Adjustable seatpost",
+                        "Hydraulic brakes",
+                        "All-terrain tires"
+                    ],
+                    "image": "h-6"
+                }
+            ]
+        },
+        {
+            "id": "1-8",
+            "type": "FAT BIKE",
+            "image": "img-fat",
+            "items": [
+                {
+                    "id": "fat-1",
+                    "name": "Snow Beast",
+                    "price": 900,
+                    "description": "Fat bike built for snow and sand trails.",
+                    "features": [
+                        "Fat tires",
+                        "Wide rims",
+                        "Durable steel frame"
+                    ],
+                    "image": "fa-1"
+                },
+                {
+                    "id": "fat-2",
+                    "name": "Mud Master",
+                    "price": 950,
+                    "description": "Rugged fat bike for muddy terrain and off-road adventures.",
+                    "features": [
+                        "Heavy-duty suspension",
+                        "Hydraulic disc brakes",
+                        "Fat 26-inch tires"
+                    ],
+                    "image": "fa-2"
+                },
+                {
+                    "id": "fat-3",
+                    "name": "Desert Rider",
+                    "price": 1000,
+                    "description": "Built for desert and beach trails, offering superior grip.",
+                    "features": [
+                        "All-terrain tires",
+                        "Alloy frame",
+                        "Shimano gearing system"
+                    ],
+                    "image": "fa-3"
+                },
+                {
+                    "id": "fat-4",
+                    "name": "Trail King",
+                    "price": 1100,
+                    "description": "Ultimate fat bike for challenging trails and outdoor expeditions.",
+                    "features": [
+                        "Suspension fork",
+                        "Wide-range gears",
+                        "Puncture-resistant tires"
+                    ],
+                    "image": "fa-4"
+                },
+                {
+                    "id": "fat-5",
+                    "name": "Snow Beast",
+                    "price": 1300,
+                    "description": "Specialized fat bike designed for snowy terrains and icy trails.",
+                    "features": [
+                        "Snow-optimized tires",
+                        "Durable alloy frame",
+                        "Hydraulic disc brakes"
+                    ],
+                    "image": "fa-5"
+                },
+                {
+                    "id": "fat-6",
+                    "name": "Sand Explorer",
+                    "price": 1250,
+                    "description": "Perfect fat bike for sand dunes and beach expeditions.",
+                    "features": [
+                        "Low-pressure tires for soft surfaces",
+                        "Lightweight aluminum frame",
+                        "Grip shifter for easy gear changes"
+                    ],
+                    "image": "fa-6"
+                }
+            ]
+        },
+        {
+            "id": "1-9",
+            "type": "KIDS BIKE",
+            "image": "img-kids",
+            "items": [
+                {
+                    "id": "kids-1",
+                    "name": "Junior Explorer",
+                    "price": 200,
+                    "description": "Durable kids' bike for outdoor adventures.",
+                    "features": [
+                        "Training wheels",
+                        "Lightweight aluminum frame",
+                        "Colorful graphics"
+                    ],
+                    "image": "k-1"
+                },
+                {
+                    "id": "kids-2",
+                    "name": "Speedster",
+                    "price": 220,
+                    "description": "Fast and fun bike for young riders.",
+                    "features": [
+                        "Single-speed",
+                        "Stylish frame design",
+                        "Easy-grip handlebars"
+                    ],
+                    "image": "k-2"
+                },
+                {
+                    "id": "kids-3",
+                    "name": "Adventure Kid",
+                    "price": 250,
+                    "description": "Adventure-ready bike for active kids.",
+                    "features": [
+                        "Heavy-duty tires",
+                        "Comfortable saddle",
+                        "Reflectors for safety"
+                    ],
+                    "image": "k-3"
+                },
+                {
+                    "id": "kids-4",
+                    "name": "Mountain Rider",
+                    "price": 270,
+                    "description": "Mountain bike for young riders who love off-road biking.",
+                    "features": [
+                        "Suspension fork",
+                        "Knobby tires",
+                        "Multi-speed gears"
+                    ],
+                    "image": "k-4"
+                },
+                {
+                    "id": "kids-5",
+                    "name": "Little Explorer",
+                    "price": 250,
+                    "description": "Durable kids' bike for everyday adventures in the neighborhood.",
+                    "features": [
+                        "Lightweight steel frame",
+                        "Training wheels for stability",
+                        "Adjustable seat height"
+                    ],
+                    "image": "k-5"
+                },
+                {
+                    "id": "kids-6",
+                    "name": "Speedster",
+                    "price": 300,
+                    "description": "A sleek bike for kids who enjoy speed and smooth rides.",
+                    "features": [
+                        "Streamlined design",
+                        "Smooth-rolling tires",
+                        "Rear coaster brake"
+                    ],
+                    "image": "k-6"
+                }
+            ]
+        },
+        {
+            "id": "1-10",
+            "type": "TRY BIKE",
+            "image": "img-try",
+            "items": [
+                {
+                    "id": "try-1",
+                    "name": "Balance Pro",
+                    "price": 150,
+                    "description": "A beginner-friendly try bike for learning balance.",
+                    "features": [
+                        "No pedals",
+                        "Lightweight frame",
+                        "Adjustable seat"
+                    ],
+                    "image": "t-1"
+                },
+                {
+                    "id": "try-2",
+                    "name": "Tiny Rider",
+                    "price": 180,
+                    "description": "Compact try bike for toddlers to learn cycling basics.",
+                    "features": [
+                        "Safety handlebars",
+                        "Non-slip tires",
+                        "Durable construction"
+                    ],
+                    "image": "t-2"
+                },
+                {
+                    "id": "try-3",
+                    "name": "Little Cyclist",
+                    "price": 160,
+                    "description": "Perfect for toddlers and young kids to start cycling.",
+                    "features": [
+                        "Adjustable height",
+                        "Non-slip pedals",
+                        "Colorful frame"
+                    ],
+                    "image": "t-3"
+                },
+                {
+                    "id": "try-4",
+                    "name": "Speedy Tot",
+                    "price": 170,
+                    "description": "Try bike for young learners, with a focus on safety and comfort.",
+                    "features": [
+                        "Comfortable grip",
+                        "Reflective stickers",
+                        "Sturdy frame"
+                    ],
+                    "image": "t-4"
+                },
+                {
+                    "id": "try-5",
+                    "name": "Tiny Explorer",
+                    "price": 190,
+                    "description": "A lightweight try bike perfect for curious little adventurers.",
+                    "features": [
+                        "Ergonomic seat",
+                        "Non-slip pedals",
+                        "Bright color scheme"
+                    ],
+                    "image": "t-5"
+                },
+                {
+                    "id": "try-6",
+                    "name": "Balance Pro",
+                    "price": 200,
+                    "description": "Try bike designed to help kids learn balance and coordination.",
+                    "features": [
+                        "Adjustable handlebars",
+                        "Foam tires for shock absorption",
+                        "Lightweight aluminum frame"
+                    ],
+                    "image": "t-6"
+                }
+            ]
+        }
+    ],
+    "parts": [
+        {
+            "id": "1",
+            "name": "Frames",
+            "image": "img-frame",
+            "items": [
+                {
+                    "id": "frame-1",
+                    "name": "Carbon Road Frame",
+                    "price": 1200,
+                    "description": "Lightweight and aerodynamic frame for road biking.",
+                    "features": [
+                        "Full carbon construction",
+                        "Integrated cable routing",
+                        "Aero geometry"
+                    ],
+                    "image": "f-1"
+                },
+                {
+                    "id": "frame-2",
+                    "name": "Aluminum MTB Frame",
+                    "price": 800,
+                    "description": "Durable frame for mountain biking adventures.",
+                    "features": [
+                        "Aluminum alloy",
+                        "Rear suspension compatibility",
+                        "Hydroformed tubing"
+                    ],
+                    "image": "f-2"
+                },
+                {
+                    "id": "frame-3",
+                    "name": "Steel Touring Frame",
+                    "price": 600,
+                    "description": "Sturdy frame designed for long-distance touring.",
+                    "features": [
+                        "Steel construction",
+                        "Rack mounts",
+                        "Comfort-focused geometry"
+                    ],
+                    "image": "f-3"
+                },
+                {
+                    "id": "frame-4",
+                    "name": "Hybrid Commuter Frame",
+                    "price": 500,
+                    "description": "Versatile frame suitable for city commuting.",
+                    "features": [
+                        "Aluminum build",
+                        "Lightweight design",
+                        "Internal cable routing"
+                    ],
+                    "image": "f-4"
+                },
+                {
+                    "id": "frame-5",
+                    "name": "Mountain Pro Frame",
+                    "price": 750,
+                    "description": "Durable frame built for rugged mountain terrain and trails.",
+                    "features": [
+                        "Carbon fiber construction",
+                        "Shock-absorbing geometry",
+                        "Reinforced chain stays"
+                    ],
+                    "image": "f-5"
+                },
+                {
+                    "id": "frame-6",
+                    "name": "Road Racer Frame",
+                    "price": 850,
+                    "description": "Streamlined frame optimized for speed and aerodynamics on the road.",
+                    "features": [
+                        "Lightweight carbon frame",
+                        "Wind-tunnel tested design",
+                        "Integrated seat post"
+                    ],
+                    "image": "f-6"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Saddles",
+            "image": "img-saddle",
+            "items": [
+                {
+                    "id": "saddle-1",
+                    "name": "Gel Comfort Saddle",
+                    "price": 50,
+                    "description": "Comfortable gel saddle for long rides.",
+                    "features": [
+                        "Gel padding",
+                        "Ergonomic design",
+                        "Water-resistant cover"
+                    ],
+                    "image": "s-1"
+                },
+                {
+                    "id": "saddle-2",
+                    "name": "Performance Racing Saddle",
+                    "price": 100,
+                    "description": "Lightweight saddle designed for racing.",
+                    "features": [
+                        "Carbon rails",
+                        "Slim profile",
+                        "Breathable cover"
+                    ],
+                    "image": "s-2"
+                },
+                {
+                    "id": "saddle-3",
+                    "name": "MTB Trail Saddle",
+                    "price": 70,
+                    "description": "Durable saddle for mountain biking.",
+                    "features": [
+                        "Reinforced edges",
+                        "Shock absorption",
+                        "Wide seat area"
+                    ],
+                    "image": "s-3"
+                },
+                {
+                    "id": "saddle-4",
+                    "name": "City Cruiser Saddle",
+                    "price": 40,
+                    "description": "Comfortable saddle for urban commuting.",
+                    "features": [
+                        "Extra padding",
+                        "Wide design",
+                        "Durable materials"
+                    ],
+                    "image": "s-4"
+                },
+                {
+                    "id": "saddle-5",
+                    "name": "Mountain Explorer Saddle",
+                    "price": 60,
+                    "description": "Durable saddle designed for mountain biking on rough trails.",
+                    "features": [
+                        "Shock-absorbing materials",
+                        "Water-resistant cover",
+                        "Ergonomic design"
+                    ],
+                    "image": "s-5"
+                },
+                {
+                    "id": "saddle-6",
+                    "name": "Road Racer Saddle",
+                    "price": 80,
+                    "description": "Lightweight and aerodynamic saddle for speed enthusiasts.",
+                    "features": [
+                        "Slim profile",
+                        "Carbon fiber rails",
+                        "Ventilated shell"
+                    ],
+                    "image": "s-6"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Seat Posts",
+            "image": "img-sp",
+            "items": [
+                {
+                    "id": "seatpost-1",
+                    "name": "Carbon Seat Post",
+                    "price": 150,
+                    "description": "Lightweight and durable carbon seat post.",
+                    "features": [
+                        "Full carbon",
+                        "Clamp compatibility",
+                        "Shock absorption"
+                    ],
+                    "image": "sp-1"
+                },
+                {
+                    "id": "seatpost-2",
+                    "name": "Aluminum Seat Post",
+                    "price": 70,
+                    "description": "Strong and affordable aluminum seat post.",
+                    "features": [
+                        "Adjustable clamp",
+                        "Rust-resistant",
+                        "Standard sizing"
+                    ],
+                    "image": "sp-2"
+                },
+                {
+                    "id": "seatpost-3",
+                    "name": "Suspension Seat Post",
+                    "price": 120,
+                    "description": "Seat post with built-in suspension for comfort.",
+                    "features": [
+                        "Shock absorption",
+                        "Adjustable preload",
+                        "Durable materials"
+                    ],
+                    "image": "sp-3"
+                },
+                {
+                    "id": "seatpost-4",
+                    "name": "Dropper Seat Post",
+                    "price": 200,
+                    "description": "Height-adjustable seat post for MTB.",
+                    "features": [
+                        "Remote control",
+                        "Smooth adjustment",
+                        "Robust construction"
+                    ],
+                    "image": "sp-4"
+                },
+                {
+                    "id": "seatpost-5",
+                    "name": "Carbon Fiber Seat Post",
+                    "price": 150,
+                    "description": "Lightweight and durable seat post for road bikes.",
+                    "features": [
+                        "Carbon fiber material",
+                        "Anti-slip clamping area",
+                        "Aerodynamic design"
+                    ],
+                    "image": "sp-5"
+                },
+                {
+                    "id": "seatpost-6",
+                    "name": "Suspension Seat Post",
+                    "price": 120,
+                    "description": "Shock-absorbing seat post for added comfort on bumpy rides.",
+                    "features": [
+                        "Built-in suspension",
+                        "Aluminum alloy construction",
+                        "Height adjustability"
+                    ],
+                    "image": "sp-6"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Chains",
+            "image": "img-chain",
+            "items": [
+                {
+                    "id": "chain-1",
+                    "name": "11-Speed Chain",
+                    "price": 40,
+                    "description": "High-performance chain for 11-speed bikes.",
+                    "features": [
+                        "Corrosion-resistant",
+                        "Lightweight",
+                        "Durable links"
+                    ],
+                    "image": "c-1"
+                },
+                {
+                    "id": "chain-2",
+                    "name": "MTB Chain",
+                    "price": 30,
+                    "description": "Sturdy chain for mountain bikes.",
+                    "features": [
+                        "Reinforced links",
+                        "Smooth shifting",
+                        "High tensile strength"
+                    ],
+                    "image": "c-2"
+                },
+                {
+                    "id": "chain-3",
+                    "name": "Single-Speed Chain",
+                    "price": 20,
+                    "description": "Reliable chain for single-speed bikes.",
+                    "features": [
+                        "Thick links",
+                        "Rust-resistant",
+                        "Easy installation"
+                    ],
+                    "image": "c-3"
+                },
+                {
+                    "id": "chain-4",
+                    "name": "Road Racing Chain",
+                    "price": 50,
+                    "description": "Lightweight and efficient chain for road racing.",
+                    "features": [
+                        "Optimized for speed",
+                        "Durable construction",
+                        "Low friction"
+                    ],
+                    "image": "c-4"
+                },
+                {
+                    "id": "chain-5",
+                    "name": "Mountain Bike Chain",
+                    "price": 60,
+                    "description": "Heavy-duty chain designed for rough trails and off-road adventures.",
+                    "features": [
+                        "Rust-resistant coating",
+                        "Enhanced tensile strength",
+                        "Compatible with wide-range cassettes"
+                    ],
+                    "image": "c-5"
+                },
+                {
+                    "id": "chain-6",
+                    "name": "Hybrid Commuter Chain",
+                    "price": 40,
+                    "description": "Reliable and smooth-performing chain for city commuting.",
+                    "features": [
+                        "Quiet operation",
+                        "Long-lasting wear resistance",
+                        "Easy installation"
+                    ],
+                    "image": "c-6"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Paddles",
+            "image": "img-padal",
+            "items": [
+                {
+                    "id": "paddle-1",
+                    "name": "Flat MTB Pedals",
+                    "price": 40,
+                    "description": "Durable flat pedals for mountain biking.",
+                    "features": [
+                        "Anti-slip surface",
+                        "Aluminum body",
+                        "Sealed bearings"
+                    ],
+                    "image": "p-1"
+                },
+                {
+                    "id": "paddle-2",
+                    "name": "Clipless Road Pedals",
+                    "price": 100,
+                    "description": "High-performance clipless pedals for road bikes.",
+                    "features": [
+                        "Lightweight design",
+                        "Adjustable tension",
+                        "Durable cleat interface"
+                    ],
+                    "image": "p-2"
+                },
+                {
+                    "id": "paddle-3",
+                    "name": "Platform Pedals",
+                    "price": 30,
+                    "description": "Versatile platform pedals for all-purpose riding.",
+                    "features": [
+                        "Wide platform",
+                        "Grip pins",
+                        "Sturdy construction"
+                    ],
+                    "image": "p-3"
+                },
+                {
+                    "id": "paddle-4",
+                    "name": "Hybrid Bike Pedals",
+                    "price": 50,
+                    "description": "Dual-function pedals for both clipless and flat usage.",
+                    "features": [
+                        "Double-sided design",
+                        "Aluminum alloy",
+                        "Smooth bearings"
+                    ],
+                    "image": "p-4"
+                },
+                {
+                    "id": "paddle-5",
+                    "name": "Mountain Grip Pedals",
+                    "price": 65,
+                    "description": "Durable pedals with exceptional grip for mountain biking.",
+                    "features": [
+                        "Anti-slip surface",
+                        "Sealed bearings",
+                        "Lightweight construction"
+                    ],
+                    "image": "p-5"
+                },
+                {
+                    "id": "paddle-6",
+                    "name": "Road Racing Pedals",
+                    "price": 70,
+                    "description": "High-performance pedals optimized for speed and efficiency.",
+                    "features": [
+                        "Carbon composite body",
+                        "Adjustable tension",
+                        "Low-profile design"
+                    ],
+                    "image": "p-6"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Brake Lever",
+            "image": "img-bl",
+            "items": [
+                {
+                    "id": "brakelever-1",
+                    "name": "Hydraulic Disc Brake Lever",
+                    "price": 80,
+                    "description": "Reliable hydraulic brake lever for precise braking.",
+                    "features": [
+                        "Lightweight alloy",
+                        "Ergonomic grip",
+                        "Compatible with most disc brakes"
+                    ],
+                    "image": "bl-1"
+                },
+                {
+                    "id": "brakelever-2",
+                    "name": "V-Brake Lever",
+                    "price": 25,
+                    "description": "Durable lever for V-brake systems.",
+                    "features": [
+                        "Aluminum construction",
+                        "Smooth operation",
+                        "Adjustable reach"
+                    ],
+                    "image": "bl-2"
+                },
+                {
+                    "id": "brakelever-3",
+                    "name": "Aero Brake Lever",
+                    "price": 90,
+                    "description": "Aerodynamic brake lever for time trial and triathlon bikes.",
+                    "features": [
+                        "Sleek design",
+                        "Lightweight materials",
+                        "Easy installation"
+                    ],
+                    "image": "bl-3"
+                },
+                {
+                    "id": "brakelever-4",
+                    "name": "Dual Control Lever",
+                    "price": 150,
+                    "description": "Integrated brake and gear lever for road bikes.",
+                    "features": [
+                        "Ergonomic design",
+                        "Quick gear shifts",
+                        "High compatibility"
+                    ],
+                    "image": "bl-4"
+                },
+                {
+                    "id": "brakelever-5",
+                    "name": "Hydraulic Disc Brake Lever",
+                    "price": 180,
+                    "description": "Precision hydraulic lever for mountain bikes.",
+                    "features": [
+                        "Smooth braking performance",
+                        "Aluminum alloy construction",
+                        "Compatible with disc brakes"
+                    ],
+                    "image": "bl-5"
+                },
+                {
+                    "id": "brakelever-6",
+                    "name": "Aero Brake Lever",
+                    "price": 200,
+                    "description": "Aerodynamic lever for time trial and triathlon bikes.",
+                    "features": [
+                        "Lightweight design",
+                        "Enhanced control",
+                        "Fits aero handlebars"
+                    ],
+                    "image": "bl-6"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Stem",
+            "image": "img-stem",
+            "items": [
+                {
+                    "id": "stem-1",
+                    "name": "Adjustable Bike Stem",
+                    "price": 60,
+                    "description": "Adjustable stem for customizable handlebar position.",
+                    "features": [
+                        "Aluminum alloy",
+                        "Wide angle range",
+                        "Durable bolts"
+                    ],
+                    "image": "st-1"
+                },
+                {
+                    "id": "stem-2",
+                    "name": "Carbon Road Stem",
+                    "price": 120,
+                    "description": "Lightweight stem for road cycling performance.",
+                    "features": [
+                        "Full carbon construction",
+                        "Aero profile",
+                        "Precision engineering"
+                    ],
+                    "image": "st-2"
+                },
+                {
+                    "id": "stem-3",
+                    "name": "MTB Stem",
+                    "price": 70,
+                    "description": "Durable and stable stem for mountain biking.",
+                    "features": [
+                        "Short length",
+                        "Sturdy build",
+                        "Wide handlebar compatibility"
+                    ],
+                    "image": "st-3"
+                },
+                {
+                    "id": "stem-4",
+                    "name": "Hybrid Stem",
+                    "price": 50,
+                    "description": "Versatile stem for hybrid bikes.",
+                    "features": [
+                        "Adjustable angle",
+                        "Aluminum alloy",
+                        "Smooth finish"
+                    ],
+                    "image": "st-4"
+                },
+                {
+                    "id": "stem-5",
+                    "name": "MTB Short Stem",
+                    "price": 60,
+                    "description": "Compact stem for improved handling on mountain bikes.",
+                    "features": [
+                        "40mm length",
+                        "CNC-machined aluminum",
+                        "Enhanced durability"
+                    ],
+                    "image": "st-5"
+                },
+                {
+                    "id": "stem-6",
+                    "name": "Road Aero Stem",
+                    "price": 120,
+                    "description": "Aerodynamic stem designed for road bikes.",
+                    "features": [
+                        "Streamlined profile",
+                        "Lightweight carbon fiber",
+                        "Internal cable routing"
+                    ],
+                    "image": "st-6"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Tires",
+            "image": "img-tire",
+            "items": [
+                {
+                    "id": "tire-1",
+                    "name": "Road Racing Tire",
+                    "price": 60,
+                    "description": "Lightweight tire for high-speed road cycling.",
+                    "features": [
+                        "Slick tread",
+                        "Low rolling resistance",
+                        "Durable rubber"
+                    ],
+                    "image": "t-1"
+                },
+                {
+                    "id": "tire-2",
+                    "name": "MTB Trail Tire",
+                    "price": 80,
+                    "description": "Grippy tire for challenging mountain trails.",
+                    "features": [
+                        "Aggressive tread",
+                        "Puncture resistance",
+                        "Tubeless compatibility"
+                    ],
+                    "image": "t-2"
+                },
+                {
+                    "id": "tire-3",
+                    "name": "Hybrid Bike Tire",
+                    "price": 40,
+                    "description": "Versatile tire for urban and off-road use.",
+                    "features": [
+                        "Semi-slick tread",
+                        "Wide profile",
+                        "Durable sidewalls"
+                    ],
+                    "image": "t-3"
+                },
+                {
+                    "id": "tire-4",
+                    "name": "Touring Tire",
+                    "price": 70,
+                    "description": "Reliable tire for long-distance touring.",
+                    "features": [
+                        "Extra puncture protection",
+                        "Smooth ride",
+                        "Heavy-duty construction"
+                    ],
+                    "image": "t-4"
+                },
+                {
+                    "id": "tire-5",
+                    "name": "MTB Trail Tire",
+                    "price": 80,
+                    "description": "Durable tire designed for off-road and trail use.",
+                    "features": [
+                        "Knobby tread for grip",
+                        "Tubeless ready",
+                        "Enhanced sidewall protection"
+                    ],
+                    "image": "t-5"
+                },
+                {
+                    "id": "tire-6",
+                    "name": "Road Racing Tire",
+                    "price": 90,
+                    "description": "High-performance tire for road racing enthusiasts.",
+                    "features": [
+                        "Low rolling resistance",
+                        "Lightweight design",
+                        "Grip-enhancing compound"
+                    ],
+                    "image": "t-6"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Hub",
+            "image": "img-hub",
+            "items": [
+                {
+                    "id": "hub-1",
+                    "name": "Quick-Release Hub",
+                    "price": 50,
+                    "description": "Convenient hub with quick-release mechanism.",
+                    "features": [
+                        "Lightweight",
+                        "Durable bearings",
+                        "Smooth engagement"
+                    ],
+                    "image": "h-1"
+                },
+                {
+                    "id": "hub-2",
+                    "name": "Thru-Axle Hub",
+                    "price": 70,
+                    "description": "Stable hub for modern MTB and road bikes.",
+                    "features": [
+                        "High stiffness",
+                        "Sealed bearings",
+                        "Precision engineering"
+                    ],
+                    "image": "h-2"
+                },
+                {
+                    "id": "hub-3",
+                    "name": "Disc Brake Hub",
+                    "price": 60,
+                    "description": "Hub designed for disc brake compatibility.",
+                    "features": [
+                        "6-bolt interface",
+                        "Smooth rotation",
+                        "Corrosion resistance"
+                    ],
+                    "image": "h-3"
+                },
+                {
+                    "id": "hub-4",
+                    "name": "Single-Speed Hub",
+                    "price": 40,
+                    "description": "Reliable hub for single-speed bikes.",
+                    "features": [
+                        "Simple design",
+                        "Durable materials",
+                        "Low maintenance"
+                    ],
+                    "image": "h-4"
+                },
+                {
+                    "id": "hub-5",
+                    "name": "Mountain Bike Hub",
+                    "price": 70,
+                    "description": "High-performance hub designed for mountain biking.",
+                    "features": [
+                        "Sealed bearings",
+                        "Lightweight aluminum",
+                        "High torque capacity"
+                    ],
+                    "image": "h-5"
+                },
+                {
+                    "id": "hub-6",
+                    "name": "Road Bike Hub",
+                    "price": 60,
+                    "description": "Smooth and efficient hub for road bikes.",
+                    "features": [
+                        "Aerodynamic design",
+                        "High-speed performance",
+                        "Corrosion-resistant materials"
+                    ],
+                    "image": "h-6"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Rims",
+            "image": "img-rim",
+            "items": [
+                {
+                    "id": "rim-1",
+                    "name": "Aero Road Rim",
+                    "price": 150,
+                    "description": "Aerodynamic rim for high-speed road cycling.",
+                    "features": [
+                        "Deep section profile",
+                        "Lightweight aluminum",
+                        "Precision machining"
+                    ],
+                    "image": "r-1"
+                },
+                {
+                    "id": "rim-2",
+                    "name": "MTB Trail Rim",
+                    "price": 100,
+                    "description": "Durable rim for mountain biking.",
+                    "features": [
+                        "Wide profile",
+                        "Reinforced walls",
+                        "Tubeless ready"
+                    ],
+                    "image": "r-2"
+                },
+                {
+                    "id": "rim-3",
+                    "name": "Touring Rim",
+                    "price": 120,
+                    "description": "Heavy-duty rim for touring bikes.",
+                    "features": [
+                        "Double-walled",
+                        "Corrosion-resistant",
+                        "Smooth braking surface"
+                    ],
+                    "image": "r-3"
+                },
+                {
+                    "id": "rim-4",
+                    "name": "Hybrid Bike Rim",
+                    "price": 90,
+                    "description": "Versatile rim for hybrid bikes.",
+                    "features": [
+                        "Alloy construction",
+                        "Durable finish",
+                        "Wide compatibility"
+                    ],
+                    "image": "r-4"
+                },
+                {
+                    "id": "rim-5",
+                    "name": "Mountain Bike Rim",
+                    "price": 120,
+                    "description": "Heavy-duty rim designed for rugged mountain trails.",
+                    "features": [
+                        "Reinforced aluminum build",
+                        "Wide profile for better traction",
+                        "Scratch-resistant coating"
+                    ],
+                    "image": "r-5"
+                },
+                {
+                    "id": "rim-6",
+                    "name": "Aero Road Rim",
+                    "price": 150,
+                    "description": "Lightweight and aerodynamic rim for road racing.",
+                    "features": [
+                        "Carbon fiber construction",
+                        "Wind tunnel-tested design",
+                        "Optimized for speed"
+                    ],
+                    "image": "r-6"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "name": "Fork",
+            "image": "img-fk",
+            "items": [
+                {
+                    "id": "fork-1",
+                    "name": "Suspension Fork",
+                    "price": 200,
+                    "description": "Fork with shock-absorbing capabilities for mountain biking.",
+                    "features": [
+                        "Adjustable suspension",
+                        "Durable build",
+                        "Smooth travel"
+                    ],
+                    "image": "fk-1"
+                },
+                {
+                    "id": "fork-2",
+                    "name": "Rigid Fork",
+                    "price": 120,
+                    "description": "Lightweight rigid fork suitable for road bikes.",
+                    "features": [
+                        "Carbon material",
+                        "Simple design",
+                        "Stable steering"
+                    ],
+                    "image": "fk-2"
+                },
+                {
+                    "id": "fork-3",
+                    "name": "Hybrid Fork",
+                    "price": 150,
+                    "description": "Versatile fork ideal for hybrid bikes.",
+                    "features": [
+                        "Compatible with disc brakes",
+                        "Lightweight aluminum",
+                        "Durable finish"
+                    ],
+                    "image": "fk-3"
+                },
+                {
+                    "id": "fork-4",
+                    "name": "BMX Fork",
+                    "price": 90,
+                    "description": "Specialized fork for BMX stunts and jumps.",
+                    "features": [
+                        "Steel construction",
+                        "Reinforced design",
+                        "Smooth handling"
+                    ],
+                    "image": "fk-4"
+                },
+                {
+                    "id": "fork-5",
+                    "name": "Mountain Bike Fork",
+                    "price": 120,
+                    "description": "Durable fork designed for mountain biking on rugged terrains.",
+                    "features": [
+                        "Aluminum alloy",
+                        "Hydraulic suspension",
+                        "Shock absorption"
+                    ],
+                    "image": "fk-5"
+                },
+                {
+                    "id": "fork-6",
+                    "name": "Road Bike Fork",
+                    "price": 140,
+                    "description": "Lightweight fork designed for road racing bikes.",
+                    "features": [
+                        "Carbon fiber construction",
+                        "Aerodynamic design",
+                        "Vibration dampening"
+                    ],
+                    "image": "fk-6"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "name": "Bar Ends",
+            "image": "img-be",
+            "items": [
+                {
+                    "id": "bar-ends-1",
+                    "name": "Aluminum Bar Ends",
+                    "price": 25,
+                    "description": "Lightweight aluminum bar ends for better grip and control.",
+                    "features": [
+                        "Ergonomic shape",
+                        "Anti-slip finish",
+                        "Simple installation"
+                    ],
+                    "image": "be-1"
+                },
+                {
+                    "id": "bar-ends-2",
+                    "name": "Carbon Bar Ends",
+                    "price": 60,
+                    "description": "Durable and lightweight carbon bar ends for advanced cyclists.",
+                    "features": [
+                        "Premium materials",
+                        "Aero design",
+                        "Shock-absorbing"
+                    ],
+                    "image": "be-2"
+                },
+                {
+                    "id": "bar-ends-3",
+                    "name": "Ergonomic Bar Ends",
+                    "price": 35,
+                    "description": "Designed for maximum comfort and control.",
+                    "features": [
+                        "Wider grip area",
+                        "Cushioned surface",
+                        "Improved wrist position"
+                    ],
+                    "image": "be-3"
+                },
+                {
+                    "id": "bar-ends-4",
+                    "name": "Compact Bar Ends",
+                    "price": 20,
+                    "description": "Compact and minimalistic bar ends for urban bikes.",
+                    "features": [
+                        "Small profile",
+                        "Lightweight",
+                        "Easy to install"
+                    ],
+                    "image": "be-4"
+                },
+                {
+                    "id": "bar-ends-5",
+                    "name": "Ergonomic Bar Ends",
+                    "price": 30,
+                    "description": "Ergonomically designed bar ends for comfortable hand positions.",
+                    "features": [
+                        "Ergonomic design",
+                        "Rubberized grips",
+                        "Shock-absorbing"
+                    ],
+                    "image": "be-5"
+                },
+                {
+                    "id": "bar-ends-6",
+                    "name": "Mountain Bike Bar Ends",
+                    "price": 35,
+                    "description": "Heavy-duty bar ends designed for mountain biking.",
+                    "features": [
+                        "Steel construction",
+                        "Wide grip area",
+                        "Durable and impact-resistant"
+                    ],
+                    "image": "be-6"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "name": "Cassette",
+            "image": "img-ct",
+            "items": [
+                {
+                    "id": "cassette-1",
+                    "name": "11-Speed Road Cassette",
+                    "price": 85,
+                    "description": "High-performance cassette for road bikes.",
+                    "features": [
+                        "Wide gear range",
+                        "Lightweight design",
+                        "Smooth shifting"
+                    ],
+                    "image": "ct-1"
+                },
+                {
+                    "id": "cassette-2",
+                    "name": "12-Speed MTB Cassette",
+                    "price": 95,
+                    "description": "Durable cassette designed for mountain biking.",
+                    "features": [
+                        "Wide ratio gearing",
+                        "Rugged construction",
+                        "Compatible with modern drivetrains"
+                    ],
+                    "image": "ct-2"
+                },
+                {
+                    "id": "cassette-3",
+                    "name": "Single-Speed Cassette",
+                    "price": 45,
+                    "description": "Reliable cassette for single-speed bikes.",
+                    "features": [
+                        "Simple design",
+                        "Minimal maintenance",
+                        "High durability"
+                    ],
+                    "image": "ct-3"
+                },
+                {
+                    "id": "cassette-4",
+                    "name": "Hybrid Bike Cassette",
+                    "price": 70,
+                    "description": "Versatile cassette for hybrid and urban bikes.",
+                    "features": [
+                        "Balanced gearing",
+                        "Durable finish",
+                        "Smooth performance"
+                    ],
+                    "image": "ct-4"
+                },
+                {
+                    "id": "cassette-5",
+                    "name": "Mountain Bike Cassette",
+                    "price": 80,
+                    "description": "High-performance cassette designed for mountain biking.",
+                    "features": [
+                        "Wide gear range",
+                        "Durable materials",
+                        "Smooth shifting"
+                    ],
+                    "image": "ct-5"
+                },
+                {
+                    "id": "cassette-6",
+                    "name": "Road Bike Cassette",
+                    "price": 65,
+                    "description": "Lightweight cassette optimized for road bikes.",
+                    "features": [
+                        "High-speed gearing",
+                        "Lightweight design",
+                        "Efficient power transfer"
+                    ],
+                    "image": "ct-6"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "name": "Derailleur",
+            "image": "img-d",
+            "items": [
+                {
+                    "id": "derailleur-1",
+                    "name": "Rear Road Derailleur",
+                    "price": 120,
+                    "description": "Precision derailleur for smooth road cycling shifts.",
+                    "features": [
+                        "Lightweight alloy",
+                        "Advanced pulley design",
+                        "High-speed compatibility"
+                    ],
+                    "image": "d-1"
+                },
+                {
+                    "id": "derailleur-2",
+                    "name": "Front MTB Derailleur",
+                    "price": 75,
+                    "description": "Durable derailleur for mountain biking.",
+                    "features": [
+                        "Wide gear range",
+                        "Rugged construction",
+                        "Easy setup"
+                    ],
+                    "image": "d-2"
+                },
+                {
+                    "id": "derailleur-3",
+                    "name": "E-Bike Derailleur",
+                    "price": 140,
+                    "description": "Reinforced derailleur for electric bikes.",
+                    "features": [
+                        "High torque capacity",
+                        "Smooth gear changes",
+                        "Durable finish"
+                    ],
+                    "image": "d-3"
+                },
+                {
+                    "id": "derailleur-4",
+                    "name": "Compact Derailleur",
+                    "price": 95,
+                    "description": "Compact design for hybrid and urban bikes.",
+                    "features": [
+                        "Minimal maintenance",
+                        "Precise adjustments",
+                        "Lightweight"
+                    ],
+                    "image": "d-4"
+                },
+                {
+                    "id": "derailleur-5",
+                    "name": "Mountain Bike Derailleur",
+                    "price": 110,
+                    "description": "High-performance derailleur designed for mountain biking.",
+                    "features": [
+                        "Wide gear range",
+                        "Durable construction",
+                        "Smooth shifting"
+                    ],
+                    "image": "d-5"
+                },
+                {
+                    "id": "derailleur-6",
+                    "name": "Road Bike Derailleur",
+                    "price": 90,
+                    "description": "Precision derailleur for road bikes, optimized for speed.",
+                    "features": [
+                        "Fast and accurate shifts",
+                        "Lightweight build",
+                        "Enhanced durability"
+                    ],
+                    "image": "d-6"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "name": "Gear Shifter",
+            "image": "img-gs",
+            "items": [
+                {
+                    "id": "gear-shifter-1",
+                    "name": "Trigger Shifter",
+                    "price": 40,
+                    "description": "Easy-to-use trigger shifter for precise gear changes.",
+                    "features": [
+                        "Ergonomic design",
+                        "Rapid shifting",
+                        "Durable construction"
+                    ],
+                    "image": "gs-1"
+                },
+                {
+                    "id": "gear-shifter-2",
+                    "name": "Twist Shifter",
+                    "price": 30,
+                    "description": "Simple twist shifter for casual cyclists.",
+                    "features": [
+                        "Comfortable grip",
+                        "Smooth operation",
+                        "Easy installation"
+                    ],
+                    "image": "gs-2"
+                },
+                {
+                    "id": "gear-shifter-3",
+                    "name": "Electronic Shifter",
+                    "price": 300,
+                    "description": "Advanced electronic shifter for high-performance bikes.",
+                    "features": [
+                        "Wireless operation",
+                        "Precise adjustments",
+                        "Lightweight"
+                    ],
+                    "image": "gs-3"
+                },
+                {
+                    "id": "gear-shifter-4",
+                    "name": "Integrated Shifter",
+                    "price": 120,
+                    "description": "Integrated shifter and brake lever for compact controls.",
+                    "features": [
+                        "Dual-purpose design",
+                        "Smooth operation",
+                        "Durable build"
+                    ],
+                    "image": "gs-4"
+                },
+                {
+                    "id": "gear-shifter-5",
+                    "name": "Trigger Shifter",
+                    "price": 80,
+                    "description": "Ergonomic trigger shifter for precise gear changes in mountain biking.",
+                    "features": [
+                        "Fast gear shifting",
+                        "Comfortable grip",
+                        "Weather-resistant"
+                    ],
+                    "image": "gs-5"
+                },
+                {
+                    "id": "gear-shifter-6",
+                    "name": "Bar-end Shifter",
+                    "price": 90,
+                    "description": "Bar-end mounted shifter for improved control on long rides.",
+                    "features": [
+                        "Improved ergonomics",
+                        "Long-distance comfort",
+                        "Smooth shifting performance"
+                    ],
+                    "image": "gs-6"
+                }
+            ]
+        }
+    ],
+    "accessories": [
+        {
+            "id": "1",
+            "name": "Bike Lights",
+            "image": "img-bl",
+            "items": [
+                {
+                    "id": "light-1",
+                    "name": "Night Rider Front Light",
+                    "price": 50,
+                    "description": "A bright LED front light for night rides.",
+                    "features": [
+                        "Rechargeable",
+                        "Water-resistant",
+                        "1000 lumens"
+                    ],
+                    "image": "bl-1"
+                },
+                {
+                    "id": "light-2",
+                    "name": "Trail Blazer Rear Light",
+                    "price": 30,
+                    "description": "A compact rear light with multiple flashing modes.",
+                    "features": [
+                        "USB charging",
+                        "5 modes",
+                        "Compact design"
+                    ],
+                    "image": "bl-2"
+                },
+                {
+                    "id": "light-3",
+                    "name": "Urban Commuter Light Set",
+                    "price": 70,
+                    "description": "A complete set of front and rear lights.",
+                    "features": [
+                        "Long battery life",
+                        "Lightweight",
+                        "Adjustable brightness"
+                    ],
+                    "image": "bl-3"
+                },
+                {
+                    "id": "light-4",
+                    "name": "Pro Cyclist Light",
+                    "price": 90,
+                    "description": "High-performance light for professional cyclists.",
+                    "features": [
+                        "Ultra-bright LED",
+                        "Shockproof",
+                        "Mounting bracket included"
+                    ],
+                    "image": "bl-4"
+                },
+                {
+                    "id": "light-5",
+                    "name": "Daytime Visibility Light",
+                    "price": 45,
+                    "description": "Compact and bright light designed for daytime visibility.",
+                    "features": [
+                        "High-visibility LED",
+                        "Lightweight design",
+                        "Long battery life"
+                    ],
+                    "image": "bl-5"
+                },
+                {
+                    "id": "light-6",
+                    "name": "All-Terrain Bike Light",
+                    "price": 70,
+                    "description": "Durable light for all-terrain biking with adjustable brightness.",
+                    "features": [
+                        "Water-resistant",
+                        "Multiple brightness levels",
+                        "Mounting accessories included"
+                    ],
+                    "image": "bl-6"
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Locks",
+            "image": "img-l",
+            "items": [
+                {
+                    "id": "lock-1",
+                    "name": "Steel Chain Lock",
+                    "price": 25,
+                    "description": "Heavy-duty steel chain lock for maximum security.",
+                    "features": [
+                        "Hardened steel",
+                        "Protective sleeve",
+                        "Key lock"
+                    ],
+                    "image": "l-1"
+                },
+                {
+                    "id": "lock-2",
+                    "name": "Cable Combination Lock",
+                    "price": 15,
+                    "description": "Lightweight lock with a resettable combination.",
+                    "features": [
+                        "Flexible cable",
+                        "4-digit code",
+                        "Compact"
+                    ],
+                    "image": "l-2"
+                },
+                {
+                    "id": "lock-3",
+                    "name": "U-Lock",
+                    "price": 35,
+                    "description": "Strong and durable U-lock for urban use.",
+                    "features": [
+                        "Anti-theft design",
+                        "Weatherproof",
+                        "Key included"
+                    ],
+                    "image": "l-3"
+                },
+                {
+                    "id": "lock-4",
+                    "name": "Smart Lock",
+                    "price": 60,
+                    "description": "Bluetooth-enabled smart lock for tech-savvy riders.",
+                    "features": [
+                        "App control",
+                        "Tamper alarm",
+                        "Rechargeable battery"
+                    ],
+                    "image": "l-4"
+                },
+                {
+                    "id": "lock-5",
+                    "name": "Cable Lock",
+                    "price": 25,
+                    "description": "A flexible, lightweight cable lock for everyday cycling needs.",
+                    "features": [
+                        "Coated cable to prevent scratches",
+                        "Compact and portable",
+                        "Easy-to-use combination lock"
+                    ],
+                    "image": "l-5"
+                },
+                {
+                    "id": "lock-6",
+                    "name": "Heavy-Duty U-Lock",
+                    "price": 80,
+                    "description": "A strong, reliable U-lock designed for maximum security.",
+                    "features": [
+                        "Steel-shackle construction",
+                        "Anti-theft protection",
+                        "Weather-resistant cover"
+                    ],
+                    "image": "l-6"
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Pumps",
+            "image": "img-p",
+            "items": [
+                {
+                    "id": "pump-1",
+                    "name": "Mini Hand Pump",
+                    "price": 20,
+                    "description": "Compact pump for on-the-go inflation.",
+                    "features": [
+                        "Portable",
+                        "Presta and Schrader compatible",
+                        "Aluminum body"
+                    ],
+                    "image": "p-1"
+                },
+                {
+                    "id": "pump-2",
+                    "name": "Floor Pump",
+                    "price": 40,
+                    "description": "Sturdy floor pump with a pressure gauge.",
+                    "features": [
+                        "High-pressure capability",
+                        "Stable base",
+                        "Dual-valve head"
+                    ],
+                    "image": "p-2"
+                },
+                {
+                    "id": "pump-3",
+                    "name": "CO2 Inflator",
+                    "price": 25,
+                    "description": "Quick inflation with CO2 cartridges.",
+                    "features": [
+                        "Compact design",
+                        "Easy to use",
+                        "Includes cartridge"
+                    ],
+                    "image": "p-3"
+                },
+                {
+                    "id": "pump-4",
+                    "name": "Electric Bike Pump",
+                    "price": 60,
+                    "description": "Automatic electric pump with digital pressure display.",
+                    "features": [
+                        "Rechargeable",
+                        "Preset pressure modes",
+                        "LED light"
+                    ],
+                    "image": "p-4"
+                },
+                {
+                    "id": "pump-5",
+                    "name": "Portable Mini Pump",
+                    "price": 25,
+                    "description": "Compact and lightweight mini pump for on-the-go inflation.",
+                    "features": [
+                        "Fits in a saddle bag",
+                        "High-pressure capacity",
+                        "Easy-to-use valve system"
+                    ],
+                    "image": "p-5"
+                },
+                {
+                    "id": "pump-6",
+                    "name": "Floor Pump with Pressure Gauge",
+                    "price": 40,
+                    "description": "Heavy-duty floor pump with built-in pressure gauge for accurate inflation.",
+                    "features": [
+                        "Stable base",
+                        "Large pressure gauge",
+                        "Ergonomic handle"
+                    ],
+                    "image": "p-6"
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Bike Computers",
+            "image": "img-bc",
+            "items": [
+                {
+                    "id": "computer-1",
+                    "name": "Basic Odometer",
+                    "price": 30,
+                    "description": "Simple bike computer with speed and distance tracking.",
+                    "features": [
+                        "Easy installation",
+                        "Battery-operated",
+                        "Water-resistant"
+                    ],
+                    "image": "bc-1"
+                },
+                {
+                    "id": "computer-2",
+                    "name": "GPS Bike Computer",
+                    "price": 150,
+                    "description": "Advanced GPS bike computer for navigation and tracking.",
+                    "features": [
+                        "Map display",
+                        "Heart rate monitor",
+                        "Wireless connectivity"
+                    ],
+                    "image": "bc-2"
+                },
+                {
+                    "id": "computer-3",
+                    "name": "Cyclist Pro Monitor",
+                    "price": 100,
+                    "description": "Mid-range bike computer with fitness tracking.",
+                    "features": [
+                        "Speedometer",
+                        "Calorie tracking",
+                        "Bluetooth sync"
+                    ],
+                    "image": "bc-3"
+                },
+                {
+                    "id": "computer-4",
+                    "name": "Elite Performance Tracker",
+                    "price": 200,
+                    "description": "High-end bike computer for professional cyclists.",
+                    "features": [
+                        "Live tracking",
+                        "Weather updates",
+                        "Power meter compatible"
+                    ],
+                    "image": "bc-4"
+                },
+                {
+                    "id": "computer-5",
+                    "name": "Smart Cycling Computer",
+                    "price": 120,
+                    "description": "Advanced cycling computer with GPS navigation and heart rate monitoring.",
+                    "features": [
+                        "GPS navigation",
+                        "Heart rate monitoring",
+                        "Bluetooth connectivity"
+                    ],
+                    "image": "bc-5"
+                },
+                {
+                    "id": "computer-6",
+                    "name": "Cycling GPS Navigator",
+                    "price": 150,
+                    "description": "GPS navigator with detailed route planning and real-time updates.",
+                    "features": [
+                        "Turn-by-turn directions",
+                        "Waterproof design",
+                        "Long battery life"
+                    ],
+                    "image": "bc-6"
+                }
+            ]
+        },
+        {
+            "id": "5",
+            "name": "Water Bottles",
+            "image": "img-wb",
+            "items": [
+                {
+                    "id": "bottle-1",
+                    "name": "Insulated Water Bottle",
+                    "price": 15,
+                    "description": "Keeps drinks cold for up to 12 hours.",
+                    "features": [
+                        "Double-wall insulation",
+                        "Leakproof",
+                        "BPA-free"
+                    ],
+                    "image": "wb-1"
+                },
+                {
+                    "id": "bottle-2",
+                    "name": "Squeeze Bottle",
+                    "price": 10,
+                    "description": "Easy-to-use bottle for quick hydration.",
+                    "features": [
+                        "Soft material",
+                        "Ergonomic grip",
+                        "Dishwasher safe"
+                    ],
+                    "image": "wb-2"
+                },
+                {
+                    "id": "bottle-3",
+                    "name": "Hydration Reservoir",
+                    "price": 25,
+                    "description": "Perfect for long rides and hydration packs.",
+                    "features": [
+                        "2-liter capacity",
+                        "Wide mouth opening",
+                        "Easy cleaning"
+                    ],
+                    "image": "wb-3"
+                },
+                {
+                    "id": "bottle-4",
+                    "name": "Eco-Friendly Bottle",
+                    "price": 12,
+                    "description": "Sustainable water bottle made from recycled materials.",
+                    "features": [
+                        "Lightweight",
+                        "Durable",
+                        "Eco-conscious design"
+                    ],
+                    "image": "wb-4"
+                },
+                {
+                    "id": "bottle-5",
+                    "name": "Insulated Water Bottle",
+                    "price": 18,
+                    "description": "Keeps your drinks cold or hot for hours with double-wall insulation.",
+                    "features": [
+                        "Double-wall insulation",
+                        "Leak-proof cap",
+                        "BPA-free"
+                    ],
+                    "image": "wb-5"
+                },
+                {
+                    "id": "bottle-6",
+                    "name": "Sports Water Bottle",
+                    "price": 10,
+                    "description": "Ergonomically designed water bottle for athletes and active users.",
+                    "features": [
+                        "Ergonomic grip",
+                        "One-handed operation",
+                        "Easy to clean"
+                    ],
+                    "image": "wb-6"
+                }
+            ]
+        },
+        {
+            "id": "6",
+            "name": "Bike Bells",
+            "image": "img-bb",
+            "items": [
+                {
+                    "id": "bell-1",
+                    "name": "Classic Bell",
+                    "price": 5,
+                    "description": "Traditional bike bell with a loud ring.",
+                    "features": [
+                        "Metal construction",
+                        "Easy to mount",
+                        "Classic design"
+                    ],
+                    "image": "bb-1"
+                },
+                {
+                    "id": "bell-2",
+                    "name": "Electronic Bell",
+                    "price": 15,
+                    "description": "Modern bell with multiple sound options.",
+                    "features": [
+                        "USB rechargeable",
+                        "Weatherproof",
+                        "Adjustable volume"
+                    ],
+                    "image": "bb-2"
+                },
+                {
+                    "id": "bell-3",
+                    "name": "Mini Bell",
+                    "price": 8,
+                    "description": "Compact bell for minimalists.",
+                    "features": [
+                        "Small size",
+                        "Loud ring",
+                        "Lightweight"
+                    ],
+                    "image": "bb-3"
+                },
+                {
+                    "id": "bell-4",
+                    "name": "Decorative Bell",
+                    "price": 10,
+                    "description": "Stylish bell with fun designs.",
+                    "features": [
+                        "Multiple patterns",
+                        "Durable",
+                        "Easy installation"
+                    ],
+                    "image": "bb-4"
+                },
+                {
+                    "id": "bell-5",
+                    "name": "Classic Handlebar Bell",
+                    "price": 12,
+                    "description": "Traditional bell with a crisp, clear sound for urban cycling.",
+                    "features": [
+                        "Loud and clear sound",
+                        "Easy to install",
+                        "Rust-resistant"
+                    ],
+                    "image": "bb-5"
+                },
+                {
+                    "id": "bell-6",
+                    "name": "Electric Bike Horn",
+                    "price": 25,
+                    "description": "Powerful electric horn for enhanced safety and attention.",
+                    "features": [
+                        "Loud sound",
+                        "Rechargeable battery",
+                        "Compact design"
+                    ],
+                    "image": "bb-6"
+                }
+            ]
+        },
+        {
+            "id": "7",
+            "name": "Phone Holder",
+            "image": "img-ph",
+            "items": [
+                {
+                    "id": "holder-1",
+                    "name": "Adjustable Phone Mount",
+                    "price": 20,
+                    "description": "Securely holds your phone on the handlebar.",
+                    "features": [
+                        "360-degree rotation",
+                        "Universal fit",
+                        "Shockproof grip"
+                    ],
+                    "image": "ph-1"
+                },
+                {
+                    "id": "holder-2",
+                    "name": "Waterproof Phone Holder",
+                    "price": 25,
+                    "description": "Keeps your phone safe in all weather conditions.",
+                    "features": [
+                        "Waterproof pouch",
+                        "Touchscreen compatible",
+                        "Easy to install"
+                    ],
+                    "image": "ph-2"
+                },
+                {
+                    "id": "holder-3",
+                    "name": "Magnetic Phone Mount",
+                    "price": 18,
+                    "description": "Magnetic holder for quick attachment.",
+                    "features": [
+                        "Strong magnets",
+                        "Adjustable angles",
+                        "Slim design"
+                    ],
+                    "image": "ph-3"
+                },
+                {
+                    "id": "holder-4",
+                    "name": "Universal Cradle Holder",
+                    "price": 15,
+                    "description": "Cradle-style mount for extra stability.",
+                    "features": [
+                        "Soft grip",
+                        "Fits all phones",
+                        "Anti-slip base"
+                    ],
+                    "image": "ph-4"
+                },
+                {
+                    "id": "holder-5",
+                    "name": "Adjustable Bike Phone Holder",
+                    "price": 20,
+                    "description": "Versatile phone holder with adjustable angles for easy viewing.",
+                    "features": [
+                        "360-degree rotation",
+                        "Shockproof design",
+                        "Universal compatibility"
+                    ],
+                    "image": "ph-5"
+                },
+                {
+                    "id": "holder-6",
+                    "name": "Waterproof Phone Holder",
+                    "price": 25,
+                    "description": "Durable, waterproof holder to protect your phone from rain and splashes.",
+                    "features": [
+                        "IPX6 water resistance",
+                        "Touchscreen-friendly",
+                        "Secure locking mechanism"
+                    ],
+                    "image": "ph-6"
+                }
+            ]
+        },
+        {
+            "id": "8",
+            "name": "Bottle Cage",
+            "image": "img-c",
+            "items": [
+                {
+                    "id": "cage-1",
+                    "name": "Aluminum Bottle Cage",
+                    "price": 10,
+                    "description": "Lightweight and durable bottle cage.",
+                    "features": [
+                        "Fits standard bottles",
+                        "Rust-resistant",
+                        "Easy installation"
+                    ],
+                    "image": "c-1"
+                },
+                {
+                    "id": "cage-2",
+                    "name": "Carbon Fiber Cage",
+                    "price": 30,
+                    "description": "High-end cage for professional cyclists.",
+                    "features": [
+                        "Ultra-light",
+                        "Strong grip",
+                        "Sleek design"
+                    ],
+                    "image": "c-2"
+                },
+                {
+                    "id": "cage-3",
+                    "name": "Adjustable Bottle Holder",
+                    "price": 15,
+                    "description": "Adjusts to hold different bottle sizes.",
+                    "features": [
+                        "Flexible arms",
+                        "Durable plastic",
+                        "Quick-release mount"
+                    ],
+                    "image": "c-3"
+                },
+                {
+                    "id": "cage-4",
+                    "name": "Side-Entry Cage",
+                    "price": 12,
+                    "description": "Side-access cage for tight spaces.",
+                    "features": [
+                        "Side entry",
+                        "Secure hold",
+                        "Minimalist design"
+                    ],
+                    "image": "c-4"
+                },
+                {
+                    "id": "cage-5",
+                    "name": "Adjustable Bottle Cage",
+                    "price": 15,
+                    "description": "Versatile bottle cage with adjustable width for different bottle sizes.",
+                    "features": [
+                        "Adjustable design",
+                        "Durable aluminum",
+                        "Easy to install"
+                    ],
+                    "image": "c-5"
+                },
+                {
+                    "id": "cage-6",
+                    "name": "Carbon Fiber Cage",
+                    "price": 25,
+                    "description": "Lightweight carbon fiber bottle cage for high-performance bikes.",
+                    "features": [
+                        "Ultra-lightweight",
+                        "Sturdy construction",
+                        "Sleek design"
+                    ],
+                    "image": "c-6"
+                }
+            ]
+        },
+        {
+            "id": "9",
+            "name": "Bike Helmet",
+            "image": "img-h",
+            "items": [
+                {
+                    "id": "helmet-1",
+                    "name": "Road Bike Helmet",
+                    "price": 50,
+                    "description": "Lightweight helmet for road cycling.",
+                    "features": [
+                        "Aerodynamic",
+                        "Adjustable fit",
+                        "Ventilated design"
+                    ],
+                    "image": "h-1"
+                },
+                {
+                    "id": "helmet-2",
+                    "name": "Mountain Bike Helmet",
+                    "price": 60,
+                    "description": "Durable helmet for off-road adventures.",
+                    "features": [
+                        "Extra coverage",
+                        "Impact-resistant",
+                        "Comfortable padding"
+                    ],
+                    "image": "h-2"
+                },
+                {
+                    "id": "helmet-3",
+                    "name": "Commuter Helmet",
+                    "price": 40,
+                    "description": "Stylish and safe helmet for city rides.",
+                    "features": [
+                        "Built-in light",
+                        "Compact design",
+                        "Easy adjustment"
+                    ],
+                    "image": "h-3"
+                },
+                {
+                    "id": "helmet-4",
+                    "name": "Kids’ Bike Helmet",
+                    "price": 30,
+                    "description": "Brightly colored helmet for young riders.",
+                    "features": [
+                        "Fun designs",
+                        "Lightweight",
+                        "Secure straps"
+                    ],
+                    "image": "h-4"
+                },
+                {
+                    "id": "helmet-5",
+                    "name": "Adult Cycling Helmet",
+                    "price": 50,
+                    "description": "Sleek and aerodynamic helmet designed for adult cyclists.",
+                    "features": [
+                        "Ventilation system",
+                        "Adjustable straps",
+                        "Impact-resistant shell"
+                    ],
+                    "image": "h-5"
+                },
+                {
+                    "id": "helmet-6",
+                    "name": "Mountain Bike Helmet",
+                    "price": 70,
+                    "description": "Durable helmet for mountain biking with extra protection.",
+                    "features": [
+                        "Extended coverage",
+                        "Breathable mesh",
+                        "Shock absorption"
+                    ],
+                    "image": "h-6"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "name": "Bike Gloves",
+            "image": "img-g",
+            "items": [
+                {
+                    "id": "gloves-1",
+                    "name": "Padded Cycling Gloves",
+                    "price": 20,
+                    "description": "Comfortable gloves with extra padding.",
+                    "features": [
+                        "Breathable fabric",
+                        "Shock absorption",
+                        "Adjustable wrist closure"
+                    ],
+                    "image": "g-1"
+                },
+                {
+                    "id": "gloves-2",
+                    "name": "Full-Finger Gloves",
+                    "price": 25,
+                    "description": "Full-finger gloves for colder weather.",
+                    "features": [
+                        "Windproof",
+                        "Touchscreen compatible",
+                        "Thermal lining"
+                    ],
+                    "image": "g-2"
+                },
+                {
+                    "id": "gloves-3",
+                    "name": "Fingerless Gloves",
+                    "price": 15,
+                    "description": "Lightweight gloves for summer rides.",
+                    "features": [
+                        "Open finger design",
+                        "Sweat-wicking material",
+                        "Non-slip grip"
+                    ],
+                    "image": "g-3"
+                },
+                {
+                    "id": "gloves-4",
+                    "name": "Mountain Bike Gloves",
+                    "price": 30,
+                    "description": "Durable gloves for tough terrains.",
+                    "features": [
+                        "Reinforced palms",
+                        "Extra grip",
+                        "Shock-resistant"
+                    ],
+                    "image": "g-4"
+                },
+                {
+                    "id": "gloves-5",
+                    "name": "Cycling Gloves",
+                    "price": 25,
+                    "description": "Comfortable gloves for road cycling with breathability.",
+                    "features": [
+                        "Breathable fabric",
+                        "Lightweight design",
+                        "Gel padding"
+                    ],
+                    "image": "g-5"
+                },
+                {
+                    "id": "gloves-6",
+                    "name": "Winter Cycling Gloves",
+                    "price": 40,
+                    "description": "Insulated gloves designed for cold weather cycling.",
+                    "features": [
+                        "Thermal insulation",
+                        "Water-resistant",
+                        "Touchscreen compatible"
+                    ],
+                    "image": "g-6"
+                }
+            ]
+        }
+    ]
+}
