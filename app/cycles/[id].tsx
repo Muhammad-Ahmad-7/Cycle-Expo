@@ -1,12 +1,14 @@
-import { FlatList, StyleSheet, Text, View } from 'react-native';
+import { FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import React, { useState } from 'react';
 import { useLocalSearchParams } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Cycle from '@/components/Cycle';
+import Icon from 'react-native-vector-icons/Ionicons'; // Ensure this package is installed
+import { useNavigation } from '@react-navigation/native';
 
 const CycleDetail = () => {
     const { id } = useLocalSearchParams();
-    // console.log(id);
+    const navigation = useNavigation(); // Hook for navigation
 
     let decodedArray = [];
     if (id) {
@@ -17,17 +19,24 @@ const CycleDetail = () => {
         }
     }
 
-    // console.log(decodedArray);
-
     const [cycleData, setCycleData] = useState(decodedArray);
 
     return (
         <SafeAreaView style={styles.container}>
-            <View>
+            {/* Back Button */}
+            <View style={styles.header}>
+                <TouchableOpacity
+                    style={styles.backButton}
+                    onPress={() => navigation.goBack()} // Navigate back to the previous screen
+                >
+                    <Icon name="arrow-back" size={24} color="#fff" />
+                </TouchableOpacity>
                 <Text style={styles.name}>
-                    {cycleData[0].name.split(" ")[0]} Cycles
+                    {cycleData[0]?.name.split(" ")[0]} Cycles
                 </Text>
             </View>
+
+            {/* List of Cycles */}
             <FlatList
                 data={cycleData}
                 numColumns={2}
@@ -35,6 +44,7 @@ const CycleDetail = () => {
                 renderItem={({ item }) => (
                     <Cycle item={item} />
                 )}
+                contentContainerStyle={styles.listContainer}
             />
         </SafeAreaView>
     );
@@ -49,11 +59,27 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         paddingTop: 8,
     },
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingHorizontal: 16,
+        width: '100%',
+        marginBottom: 10,
+    },
+    backButton: {
+        backgroundColor: '#f95f2e', // Orange background
+        borderRadius: 20, // Circular button
+        padding: 8,
+        marginRight: 16,
+    },
     name: {
-        fontSize: 36,
-        color: '#f95f2e',
+        fontSize: 24,
+        color: '#fff',
         fontWeight: 'bold',
-        marginBottom: 20,
-        textAlign: 'center',
-    }
+    },
+    listContainer: {
+        paddingHorizontal: 10,
+        paddingBottom: 16,
+        alignItems: 'center', // Center items within the columns
+    },
 });

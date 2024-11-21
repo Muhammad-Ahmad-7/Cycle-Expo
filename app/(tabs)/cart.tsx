@@ -1,9 +1,24 @@
-import { StyleSheet, Text, View, FlatList, Image, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View, FlatList, TouchableOpacity, Button } from 'react-native';
 import React, { useContext } from 'react';
 import { AppContext } from '@/context/CartContext';
 
 const Cart = () => {
   const { state, setState } = useContext(AppContext);
+
+  const updateItemQuantity = (index: number, action: 'increase' | 'decrease') => {
+    setState((prevState: any) => {
+      const updatedState = [...prevState];
+      const item = updatedState[index];
+      
+      if (action === 'increase') {
+        item.quantity = item.quantity ? item.quantity + 1 : 1; // Increase the quantity
+      } else if (action === 'decrease' && item.quantity > 1) {
+        item.quantity -= 1; // Decrease the quantity if greater than 1
+      }
+
+      return updatedState;
+    });
+  };
 
   const removeItem = (index: number) => {
     setState((prevState: any) => prevState.filter((_: any, i: number) => i !== index));
@@ -15,7 +30,26 @@ const Cart = () => {
         <Text style={styles.itemName}>{item.name}</Text>
         <Text style={styles.itemPrice}>${item.price}</Text>
         <Text style={styles.itemDescription}>{item.description}</Text>
-        <TouchableOpacity
+
+        {/* Quantity Controls */}
+        <View style={styles.quantityContainer}>
+          <TouchableOpacity 
+            style={styles.quantityButton} 
+            onPress={() => updateItemQuantity(index, 'decrease')}
+          >
+            <Text style={styles.quantityButtonText}>-</Text>
+          </TouchableOpacity>
+          <Text style={styles.quantity}>{item.quantity || 1}</Text>
+          <TouchableOpacity 
+            style={styles.quantityButton} 
+            onPress={() => updateItemQuantity(index, 'increase')}
+          >
+            <Text style={styles.quantityButtonText}>+</Text>
+          </TouchableOpacity>
+        </View>
+
+        {/* Remove Button */}
+        <TouchableOpacity 
           style={styles.removeButton}
           onPress={() => removeItem(index)}
         >
@@ -24,6 +58,11 @@ const Cart = () => {
       </View>
     </View>
   );
+
+  const handleCheckout = () => {
+    // Handle checkout logic here
+    alert('Proceeding to checkout');
+  };
 
   return (
     <View style={styles.container}>
@@ -38,6 +77,13 @@ const Cart = () => {
       ) : (
         <Text style={styles.emptyMessage}>Your cart is empty!</Text>
       )}
+
+      {/* Checkout Button */}
+      {state.length > 0 && (
+        <TouchableOpacity style={styles.checkoutButton} onPress={handleCheckout}>
+          <Text style={styles.checkoutButtonText}>Checkout</Text>
+        </TouchableOpacity>
+      )}
     </View>
   );
 };
@@ -49,6 +95,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#1e1f28',
     padding: 16,
+    paddingBottom: 100, // Ensure enough space for the fixed button
   },
   header: {
     fontSize: 24,
@@ -56,7 +103,6 @@ const styles = StyleSheet.create({
     color: '#f95f2e',
     marginBottom: 16,
     textAlign: 'center',
-
   },
   card: {
     flexDirection: 'row',
@@ -69,13 +115,6 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.1,
     shadowRadius: 4,
     elevation: 3,
-  },
-  image: {
-    width: 80,
-    height: 80,
-    borderRadius: 8,
-    marginRight: 12,
-    resizeMode: 'cover',
   },
   details: {
     flex: 1,
@@ -97,6 +136,27 @@ const styles = StyleSheet.create({
     color: '#666',
     marginBottom: 12,
   },
+  quantityContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 12,
+  },
+  quantityButton: {
+    backgroundColor: '#f95f2e',
+    paddingVertical: 6,
+    paddingHorizontal: 12,
+    borderRadius: 6,
+    marginHorizontal: 8,
+  },
+  quantityButtonText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
+  },
+  quantity: {
+    fontSize: 18,
+    color: '#333',
+  },
   removeButton: {
     alignSelf: 'flex-start',
     backgroundColor: '#f95f2e',
@@ -114,5 +174,20 @@ const styles = StyleSheet.create({
     color: '#888',
     textAlign: 'center',
     marginTop: 50,
+  },
+  checkoutButton: {
+    position: 'absolute',
+    bottom: 20,
+    left: 16,
+    right: 16,
+    backgroundColor: '#f95f2e',
+    paddingVertical: 12,
+    borderRadius: 6,
+    alignItems: 'center',
+  },
+  checkoutButtonText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#fff',
   },
 });

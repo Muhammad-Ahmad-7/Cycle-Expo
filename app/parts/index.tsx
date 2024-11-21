@@ -1,12 +1,21 @@
 import React from 'react';
-import { FlatList, StyleSheet, Text, View } from 'react-native';
+import { FlatList, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useNavigation } from '@react-navigation/native'; // Import navigation hook
+import Icon from 'react-native-vector-icons/Ionicons'; // Import Ionicons
 import data from '../../data.json';
 import PartType from '@/components/PartType';
 
 const PartsScreen = () => {
+  const navigation = useNavigation(); // Initialize navigation
+
   return (
     <SafeAreaView style={styles.container}>
+      {/* Back Button with Icon */}
+      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+        <Icon name="arrow-back" size={24} color="#fff" />
+      </TouchableOpacity>
+
       <Text style={styles.heading}>Parts</Text>
       <FlatList
         data={data.parts}
@@ -71,5 +80,14 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginTop: 8,
+  },
+  // Back button style
+  backButton: {
+    position: 'absolute',
+    top: 20,
+    left: 10,
+    padding: 10,
+    backgroundColor: '#f95f2e',
+    borderRadius: 50,
   },
 });

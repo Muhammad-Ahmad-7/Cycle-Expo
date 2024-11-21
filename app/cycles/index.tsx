@@ -1,27 +1,38 @@
 import React from 'react';
-import { FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import { FlatList, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useNavigation } from '@react-navigation/native';
+import Icon from 'react-native-vector-icons/Ionicons'; // Make sure to install react-native-vector-icons
 import data from '../../data.json'; // Ensure this is correctly linked to your data
-import {cycle_images} from "../../components/image-uri";
 import CycleType from '@/components/CycleType';
 
 const CyclesScreen = () => {
-  
+  const navigation = useNavigation();
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.heading}>Cycles</Text>
-      <FlatList
-        data={data.cycles}
-        numColumns={2} // Two-column layout
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={({ item }) => (
-          <CycleType item={item} />
-        )}
-        contentContainerStyle={styles.listContainer}
-        showsHorizontalScrollIndicator={false}
-        showsVerticalScrollIndicator={false}
-      />
+      {/* Back Button */}
+      <View style={styles.header}>
+        <TouchableOpacity
+          style={styles.backButton}
+          onPress={() => navigation.goBack()} // Navigate back to the previous screen
+        >
+          <Icon name="arrow-back" size={24} color="#fff" />
+        </TouchableOpacity>
+        <Text style={styles.heading}>Cycles</Text>
+      </View>
+
+      <View style={styles.contentContainer}>
+        <FlatList
+          data={data.cycles}
+          numColumns={2} // Two-column layout
+          keyExtractor={(item) => item.id.toString()}
+          renderItem={({ item }) => <CycleType item={item} />}
+          contentContainerStyle={styles.listContainer}
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
+        />
+      </View>
     </SafeAreaView>
   );
 };
@@ -35,44 +46,32 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     paddingTop: 20,
   },
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    width: '100%',
+    marginBottom: 10,
+  },
+  backButton: {
+    backgroundColor: '#f95f2e', // Orange background
+    borderRadius: 20, // Circular button
+    padding: 8,
+    marginRight: 16,
+  },
   heading: {
-    fontSize: 36,
-    color: '#f95f2e',
+    fontSize: 24,
+    color: '#fff',
     fontWeight: 'bold',
-    marginBottom: 20,
-    textAlign: 'center',
+  },
+  contentContainer: {
+    flex: 1,
+    width: '100%',
+    alignItems: 'center',
   },
   listContainer: {
     paddingHorizontal: 10,
     paddingBottom: 16,
     alignItems: 'center', // Center the items within the columns
-  },
-  card: {
-    backgroundColor: '#2a2c36',
-    padding: 16,
-    margin: 12,
-    borderRadius: 15,
-    width: 150,
-    alignItems: 'center',
-    justifyContent: 'center',
-    elevation: 5, // Adds shadow for Android
-    shadowColor: '#000', // Adds shadow for iOS
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.2,
-    shadowRadius: 5,
-  },
-  image: {
-    width: 120,
-    height: 120,
-    borderRadius: 10, // Rounded image
-    resizeMode: 'cover',
-    marginBottom: 12, // Adds space between image and text
-  },
-  text: {
-    fontSize: 18,
-    color: '#fff',
-    fontWeight: 'bold',
-    textAlign: 'center',
-    marginTop: 8,
   },
 });

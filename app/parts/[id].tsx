@@ -1,11 +1,13 @@
-import { FlatList, SafeAreaView, StyleSheet, Text, View } from 'react-native'
-import React, { useState } from 'react'
+import { FlatList, SafeAreaView, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import React, { useState } from 'react';
 import { useLocalSearchParams } from 'expo-router';
+import { useNavigation } from '@react-navigation/native'; // Import navigation hook
+import Icon from 'react-native-vector-icons/Ionicons'; // Import Ionicons
 import Parts from '@/components/Parts';
 
 const PartsDetail = () => {
   const { id } = useLocalSearchParams();
-  // console.log(id);
+  const navigation = useNavigation(); // Initialize navigation
 
   let decodedArray = [];
   if (id) {
@@ -18,12 +20,16 @@ const PartsDetail = () => {
     }
   }
 
-  
   const [partsData, setPartsData] = useState(decodedArray);
   console.log("Parts DATA: ", partsData);
 
   return (
     <SafeAreaView style={styles.container}>
+      {/* Back Button */}
+      <TouchableOpacity style={styles.backButton} onPress={() => navigation.goBack()}>
+        <Icon name="arrow-back" size={24} color="#fff" />
+      </TouchableOpacity>
+
       <View>
         <Text style={styles.name}>
           {partsData[0].id.split("-")[0].toUpperCase()}
@@ -38,10 +44,10 @@ const PartsDetail = () => {
         )}
       />
     </SafeAreaView>
-  )
+  );
 }
 
-export default PartsDetail
+export default PartsDetail;
 
 const styles = StyleSheet.create({
   container: {
@@ -56,5 +62,15 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 20,
     textAlign: 'center',
-  }
+  },
+  // Back button style
+  backButton: {
+    position: 'absolute',
+    top: 20,
+    left: 20,
+    padding: 12,
+    backgroundColor: '#f95f2e',
+    borderRadius: 50, // Rounded full button
+    
+  },
 });

@@ -1,12 +1,11 @@
-import { StyleSheet, Text, View, Pressable, Image, ActivityIndicator } from 'react-native';
+import { StyleSheet, Text, View, Pressable, Image, ActivityIndicator, TextInput } from 'react-native';
 import React, { useEffect, useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 
-const index = () => {
-
-
+const Index = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [searchText, setSearchText] = useState('');
 
   useEffect(() => {
     // Simulate loading or fetching data
@@ -31,18 +30,24 @@ const index = () => {
       router.push('/parts');
     }
     if (category === 'Accessories') {
-      router.push('/accessories')
+      router.push('/accessories');
     }
   };
 
   return (
     <SafeAreaView style={styles.container}>
+      {/* Search input */}
+      <TextInput
+        style={styles.searchInput}
+        placeholder="Search..."
+        placeholderTextColor="#fff" // White placeholder text color
+        value={searchText}
+        onChangeText={setSearchText}
+      />
+
       <Text style={[styles.txt, styles.heading]}>Categories</Text>
       <View style={styles.cardsContainer}>
-        <Pressable
-          style={styles.card}
-          onPress={() => handlePress('Cycles')}
-        >
+        <Pressable style={styles.card} onPress={() => handlePress('Cycles')}>
           <View style={styles.cardContent}>
             <Text style={styles.cardText}>Cycles</Text>
             <Image
@@ -51,10 +56,7 @@ const index = () => {
             />
           </View>
         </Pressable>
-        <Pressable
-          style={styles.card}
-          onPress={() => handlePress('Parts')}
-        >
+        <Pressable style={styles.card} onPress={() => handlePress('Parts')}>
           <View style={styles.cardContent}>
             <Text style={styles.cardText}>Parts</Text>
             <Image
@@ -63,10 +65,7 @@ const index = () => {
             />
           </View>
         </Pressable>
-        <Pressable
-          style={styles.card}
-          onPress={() => handlePress('Accessories')}
-        >
+        <Pressable style={styles.card} onPress={() => handlePress('Accessories')}>
           <View style={styles.cardContent}>
             <Text style={styles.cardText}>Accessories</Text>
             <Image
@@ -80,7 +79,7 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
 
 const styles = StyleSheet.create({
   container: {
@@ -96,6 +95,15 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     marginBottom: 10,
+  },
+  searchInput: {
+    height: 50,
+    backgroundColor: '#2a2c36', // Match the background color of the screen
+    color: '#fff', // Text color in the search input
+    borderRadius: 8,
+    marginBottom: 16,
+    paddingHorizontal: 10,
+    fontSize: 20,
   },
   cardsContainer: {
     flex: 1,

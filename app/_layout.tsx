@@ -8,8 +8,22 @@ const HomeLayout = () => {
     <AppProvider>
       <View style={styles.container}>
         <Stack>
-          <Stack.Screen name="index" options={{ headerShown: false }} />
-          <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+          <Stack.Screen
+            name="index"
+            options={{
+              headerShown: false,
+              animation: 'slide_from_right',
+              animationDuration: 100, // Adjust for smoother transitions
+            }}
+          />
+          <Stack.Screen
+            name="(tabs)"
+            options={{
+              headerShown: false,
+              animation: 'slide_from_right',
+              animationDuration: 100, // Animation duration in milliseconds
+            }}
+          />
           <Stack.Screen name="cycles" options={{ headerShown: false }} />
           <Stack.Screen name="parts" options={{ headerShown: false }} />
           <Stack.Screen name="accessories" options={{ headerShown: false }} />
@@ -24,6 +38,6 @@ export default HomeLayout;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000', // Black background to prevent white flashes
+    backgroundColor: '#1e1f28',
   },
 });
